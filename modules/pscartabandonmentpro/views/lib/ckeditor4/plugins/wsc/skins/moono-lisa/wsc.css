@@ -1,0 +1,61 @@
+/**
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License version 3.0
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+ */
+.cke_dialog_body #overlayBlock,
+.cke_dialog_body #no_check_over
+{
+    top: 39px !important;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_vbox td > .cke_dialog_ui_button:first-child
+{
+    margin-top: 4px;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select > label
+{
+    margin-left: 0;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select div.cke_dialog_ui_input_select
+{
+    width: 140px !important;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select select.cke_dialog_ui_input_select,
+div[name=Thesaurus] div.cke_dialog_ui_input_select select.cke_dialog_ui_input_select
+{
+    margin-top: 1px;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select select.cke_dialog_ui_input_select:focus,
+div[name=Thesaurus] div.cke_dialog_ui_input_select select.cke_dialog_ui_input_select:focus
+{
+    margin-top: 0;
+}
+
+div[name=GrammTab] .cke_dialog_ui_vbox tbody > tr:first-child .cke_dialog_ui_button,
+div[name=Thesaurus] .cke_dialog_ui_vbox tbody > tr:first-child .cke_dialog_ui_button
+{
+    margin-top: 4px !important;
+}
+
+div[name=Thesaurus] div.cke_dialog_ui_input_select
+{
+    width: 180px !important;
+}

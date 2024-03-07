@@ -1,0 +1,25 @@
+Server restriction: paski-wybielajace.pl,www.paski-wybielajace.pl,*.paski-wybielajace.pl,*.local,*.loc,*.localhost,*.test,dev.*,*.dev,*.dev.*
+
+------ LICENSE FILE DATA -------
+1033X205CHh6nnUg1oZ+LK7T3Wy3FB7Y
+4dSQKCIzrWh5e2/mOQ9gAPvaKRp/J14A
+avjTDYNWn4v7jAYotwTUAs2BU5mbUQx7
+VKaxWSQwaRlzCkJBXkRXdzeFgvcFQYbr
+kxau0BX6EXssFu2/blczuNeCg74oFBqi
+Y7jJzIGP8NE7gV/BsdX7FkUEg6L3Xuix
+ztymKW83Fzb+2p/8hXEGNE9if9rOt0HL
+EbbnEkC8WbMgfPe0mN91rvEp0TLfVr5y
+IrfgdhKz8OteayAErxFeM4qrydf0mktg
+KtD6C6Ml4reNE2upEsR25gQO4XLQKMZY
+aJc3V0Iak9ADaIjNuH0uLKhsTLWMI4Ni
+GErHTkgBPDfTzEBPNnihWnQGnIRjxmIl
+9cCmIGh0Nf3MDsZ0/vpczhT7BWonvcet
+NWwzHNuM+qEmrLW6njfr9mUOa5y/BaRf
+ZsbYnlGUld91OWtCF44e+m1we1/+M8tG
+PH0C4HmG9kyXZDY7CqzZFn8+7wXTmInR
+lztellT7Vo6FR2tg+zeg6RCLU5gAQrXM
+NL83XqSNCNgg9REeHww0fNhCjjbDPmdp
+QGDk2qJgr7SJadsXUIo3pdBEyD8ZF4IH
++VKzN4ZyHDfdtcOYLWMyy8byEQ+hq5S3
++S5K93DsMhmBjNd8YY4P
+--------------------------------

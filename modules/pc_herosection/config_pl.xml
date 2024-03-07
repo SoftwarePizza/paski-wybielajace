@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pc_herosection</name>
+    <displayName><![CDATA[Sekcja hero]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Wyświetla sekcje hero na stronie głownej]]></description>
+    <author><![CDATA[Panda Coders]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

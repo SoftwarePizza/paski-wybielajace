@@ -1,0 +1,188 @@
+ // breakpoints mixins
+
+ // Small tablets and large smartphones (landscape view)
+ $screen-sm-min: 576px;
+
+ // Small tablets (portrait view)
+ $screen-md-min: 768px;
+
+ // Tablets and small desktops
+ $screen-lg-min: 992px;
+
+ // Large tablets and desktops
+ $screen-xl-min: 1200px;
+
+ $screen-xxl-min: 1500px;
+
+ // Small devices
+ @mixin sm {
+   @media (min-width: #{$screen-sm-min}) {
+     @content;
+   }
+ }
+
+ // Medium devices
+ @mixin md {
+   @media (min-width: #{$screen-md-min}) {
+     @content;
+   }
+ }
+
+ // Large devices
+ @mixin lg {
+   @media (min-width: #{$screen-lg-min}) {
+     @content;
+   }
+ }
+
+ // Extra large devices
+ @mixin xl {
+   @media (min-width: #{$screen-xl-min}) {
+     @content;
+   }
+ }
+
+ @mixin xxl {
+   @media (min-width: #{$screen-xxl-min}) {
+     @content;
+   }
+ }
+
+ @mixin container-width {
+   padding: 0 15px;
+
+   @include sm {
+     width: 560px;
+   }
+
+   @include md {
+     width: 760px;
+   }
+
+   @include lg {
+     width: 980px;
+
+   }
+
+   @include xl {
+     width: 1170px;
+
+   }
+
+   @include xxl {
+     width: 1470px;
+   }
+ }
+
+
+ $primary-color: #1D4385;
+ $additional-color: #1CD6A9;
+ $btn-font-color: #fff;
+ $text-color: #828282;
+ $additional-text-color: #4F4F4F;
+ $bg-color: #F2F8FB;
+ $additional-bg-color: #fff;
+ $top-bar-bg-color: #F2F2F2;
+
+ @mixin btn-green {
+  cursor: pointer;
+   button {
+     display: flex;
+     align-items: center;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 17px;
+     color: $btn-font-color;
+     margin-top: 23px;
+     padding: 7px 12px;
+     border-radius: 10px;
+     background-color: $additional-color;
+     border: none;
+     cursor: pointer;
+
+     &:hover {
+       color: $primary-color;
+       
+
+       svg path {
+         stroke: $primary-color;
+       }
+     }
+     &:focus{
+      outline:none !important;
+     }
+     span {
+       display: flex;
+       align-items: center;
+       margin-left: 12px;
+     }
+
+
+
+   }
+ }
+
+ @mixin btn-outline {
+   button {
+     color: $additional-bg-color;
+    cursor: pointer;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 17px;
+     background: transparent;
+     border: 2px solid #fff;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     padding: 7px 12px;
+
+     &:hover {
+       color: $additional-color;
+       border: 2px solid $additional-color;
+
+       span svg path {
+         stroke: $additional-color;
+       }
+     }
+
+     &:focus {
+       outline: none;
+     }
+
+     span {
+       display: flex;
+       align-items: center;
+       margin-left: 12px;
+     }
+
+
+   }
+ }
+
+
+ @mixin sectionTitle {
+   font-size: 27px;
+   font-weight: 700;
+   color: $primary-color;
+   text-transform: none;
+   margin: 40px 0 5px 0;
+
+
+   @include md {
+     font-size: 30px;
+
+   }
+
+   @include lg {
+     font-size: 35px;
+     margin: 40px 0 15px 0;
+   }
+
+   @include xl {
+     font-size: 40px;
+   }
+
+   @include xxl {
+     font-size: 50px;
+   }
+ }

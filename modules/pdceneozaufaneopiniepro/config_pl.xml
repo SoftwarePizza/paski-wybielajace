@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pdceneozaufaneopiniepro</name>
+    <displayName><![CDATA[Ceneo Zaufane Opinie Pro]]></displayName>
+    <version><![CDATA[2.1.0]]></version>
+    <description><![CDATA[Integracja programu Ceneo Zaufane Opinie z Twoim sklepem + dodatkowy widget opinii i rekomendacji]]></description>
+    <author><![CDATA[PrestaDev.pl]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Napewno chcesz odinstalować ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

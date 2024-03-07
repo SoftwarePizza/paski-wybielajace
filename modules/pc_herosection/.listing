@@ -1,0 +1,11 @@
+drwxr-xr-x   6 ftp      ftp          4096 Mar 31 12:12 .
+drwxr-xr-x  89 ftp      ftp          4096 Mar 31 16:19 ..
+-rw-r--r--   1 ftp      ftp           543 Jan  9 11:52 config_pl.xml
+drwxr-xr-x   2 ftp      ftp          4096 Mar 31 12:12 css
+-rw-r--r--   1 ftp      ftp         12876 Jan  9 11:52 featuredcategory2.php
+drwxr-xr-x   2 ftp      ftp          4096 Mar 31 12:12 img
+-rw-r--r--   1 ftp      ftp          1266 Jan  9 11:52 index.php
+-rw-r--r--   1 ftp      ftp           377 Jan  9 11:52 logo.gif
+-rw-r--r--   1 ftp      ftp          4552 Jan  9 11:52 logo.png
+drwxr-xr-x   2 ftp      ftp          4096 Mar 31 12:12 translations
+drwxr-xr-x   3 ftp      ftp          4096 Mar 31 12:12 views

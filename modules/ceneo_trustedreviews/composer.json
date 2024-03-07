@@ -1,0 +1,28 @@
+{
+  "name": "ceneo/ceneotrustedreviews",
+  "description": "Ceneo Trusted Reviews",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CeneoTrustedReviews\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false,
+    "optimize-autoloader": true
+  },
+  "authors": [
+    {
+      "name": "Ceneo"
+    }
+  ],
+  "type": "prestashop-module",
+  "author": "Ceneo",
+  "require-dev": {
+    "phpstan/phpstan": "^1.10"
+  },
+  "scripts": {
+    "build:prod": "composer install -v --no-dev"
+  }
+}

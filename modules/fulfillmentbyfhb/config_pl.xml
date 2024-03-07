@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>fulfillmentbyfhb</name>
+    <displayName><![CDATA[Fulfillment by FHB]]></displayName>
+    <version><![CDATA[1.1]]></version>
+    <description><![CDATA[We are dealing with distribution of goods under one roof &ndash; we store, pack and deliver your goods and parcels.]]></description>
+    <author><![CDATA[FHB Group s.r.o.]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

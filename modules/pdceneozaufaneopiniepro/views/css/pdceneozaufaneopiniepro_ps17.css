@@ -1,0 +1,17 @@
+#pdceneozaufaneopiniepro {padding-top: 1rem;padding-bottom: 1rem;}
+
+#pdceneozaufaneopiniepro label {
+	text-align: left;
+	display: unset;
+}
+
+#pdceneozaufaneopiniepro  .cart-overview-new {
+    padding: 1rem;
+}
+
+#pdceneozaufaneopiniepro #pd_czo_response {color:red;padding:0 2px;}
+#pdceneozaufaneopiniepro label b {font-weight: normal;}
+/*#pdceneozaufaneopiniepro p.checkbox {margin-bottom: 20px}*/
+#left_column #ceneo_widget_embed * {text-align: center;}
+
+#cart #pdceneozaufaneopiniepro {margin-top:20px;}

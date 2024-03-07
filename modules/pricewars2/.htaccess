@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule xml/id/([0-9]*)\.xml service.php?id_xml=$1 [L,QSA]
+RewriteRule xml/alias/(.*)\.xml service.php?alias=$1 [L,QSA]

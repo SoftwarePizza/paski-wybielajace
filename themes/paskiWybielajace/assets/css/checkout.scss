@@ -1,0 +1,205 @@
+#promo-code {
+    .cancel-promo {
+        color: $primary-color;
+
+        &:hover {
+            color: $additional-color;
+        }
+    }
+
+    input.promo-input {
+        border-radius: 10px 0 0 10px;
+        border: none;
+        background: #F2F2F2;
+        color: #7a7a7a;
+        outline: 2px solid #F2F2F2;
+
+        &:focus, &:focus-visible, &:focus-within {
+            outline: 2px solid $primary-color;
+        }
+    }
+
+    button.btn-primary {
+        border: none;
+        border-radius: 0 10px 10px 0;
+        height: 44px;
+        
+
+        span {
+            color: #fff;
+        }
+    }
+
+    
+}
+
+.block-promo .cart-summary-line .label {
+    color: $primary-color;
+}
+
+.block-promo .promo-name .cart-summary-line{
+    span {
+        color: $primary-color;
+    }
+
+    a {
+        &:hover {
+            color: $additional-color;
+        }
+    }
+} 
+
+body#checkout a:hover {
+    color: $additional-color;
+}
+
+.cart-grid-right .promo-discounts .cart-summary-line .label .code {
+    color: $additional-color;
+}
+
+
+
+body.page-order {
+    section#wrapper nav.breadcrumb {
+        margin-bottom: 50px;
+    }
+
+    .block-header.shopping-cart-header {
+        border-top: none;
+    }
+
+    .checkout-block {
+        .product-price {
+            color: $primary-color;
+        }
+    }
+
+    .product-line-actions {
+        .qty-container {
+            background-color: #F2F2F2;
+            border-radius: 10px;
+        }
+        .qty-box {
+            input.cart-line-product-quantity {
+                border:none;
+                background-color: #F2F2F2;
+            }
+        }
+
+        a.cart-line-product-quantity-up, a.cart-line-product-quantity-down {
+            border: none;
+    }
+}
+
+.promo-name {
+    border: none;
+}
+}
+
+
+
+
+#thecheckout-login-form .inner-area {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding-top: 34px;
+
+    .already-account-label {
+        position: absolute;
+        top: -1em;
+        background: #fff;
+        font-weight: 700;
+        line-height: 1.2em;
+        padding: 0 10px;
+        color: #4f4f4f;
+    }
+}
+
+.checkout-block .inner-area .offer-login a {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1D4385;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.checkout-area-2 {
+    margin-bottom: 30px;
+}
+  .checkout-area-5, .checkout-area-7 {
+    
+    .inner-area {
+        border: 1px solid #d2d2d2;
+        border-radius: 5px;
+        padding-top: 40px !important;
+
+        .block-header {
+            position: absolute;
+            top: -1em;
+            background: #fff;
+            font-weight: 700;
+            line-height: 1.2em;
+            padding: 0 10px;
+            color: #4f4f4f;
+        }
+    }
+
+}
+
+.checkout-area-8 {
+    .checkout-block {
+        .inner-area {
+            border: 1px solid #d2d2d2 !important;
+            border-radius: 5px;
+
+            .block-header {
+                position: absolute;
+                top: -1em;
+                background: #fff;
+                font-weight: 700;
+                line-height: 1.2em;
+                padding: 0 10px;
+                color: #4f4f4f;
+            }
+
+            .delivery-options {
+                border: none;
+            }
+            .payment-options {
+                border: none;
+            }
+
+            .delivery-option-logo {
+                display: none;
+            }
+
+            span.carrier-delay {
+                font-size: 12px;
+                color: #4f4f4f;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+.using-material-icons .custom-radio input[type=radio]:checked + span {
+    filter: brightness(30%);
+}
+
+#confirm_order {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1D4385;
+    border: none;
+    cursor: pointer;
+}
+
+.card-block:first-child {
+    border-bottom: 0 !important;
+}
+
+.has-discount .discount {
+    background-color: $additional-color !important;
+}

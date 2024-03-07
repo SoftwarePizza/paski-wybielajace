@@ -1,0 +1,24 @@
+.products.homePage .product {
+  width: 25%;
+}
+
+.products .product .thumbnail-container {
+  width: 350px;
+  height: 560px;
+}
+
+.products .product .thumbnail-container .thumbnail-top {
+  border: 1px solid #e0e0e0;
+}
+
+.products .product .thumbnail-container .thumbnail-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.products .product .thumbnail-container .product-description .product-title a {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}

@@ -1,0 +1,9 @@
+@import url(../../../../themes/paskiWybielajace/assets/css/variables.scss);
+
+#pc_stripeFeatures {
+    .btn-green {
+        @include btn-green;
+        background-color: aqua;
+    }
+}
+

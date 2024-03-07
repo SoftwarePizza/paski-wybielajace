@@ -1,0 +1,9 @@
+#cart{
+    .product-line-info{
+        a{
+            color:$primary-color;
+        }:hover{
+            color:$additional-color;
+        }
+    }
+}

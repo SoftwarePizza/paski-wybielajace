@@ -1,0 +1,243 @@
+#whyUs {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  margin: 0 -15px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  #whyUs {
+    padding: 0 15px;
+    margin: 0;
+    overflow: visible;
+  }
+}
+
+#whyUs .wrapper-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content {
+    flex-direction: row;
+  }
+}
+
+#whyUs .wrapper-content .col-6 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content .col-6 {
+    width: 50%;
+    height: 400px;
+  }
+}
+
+#whyUs .wrapper-content .col-6:first-of-type {
+  background: #f2f8fb;
+  box-shadow: 0px 24px 64px 0px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content .col-6:first-of-type {
+    background-color: #fff;
+  }
+}
+
+#whyUs .wrapper-content .col-6 .content {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content .col-6 .content {
+    margin-left: 50px;
+    width: 70%;
+  }
+}
+
+#whyUs .wrapper-content .col-6 .img-bg img {
+  width: 100%;
+  object-fit: cover;
+  height: 210px;
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content .col-6 .img-bg img {
+    height: 400px;
+  }
+}
+
+#whyUs .wrapper-content .col-6 h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #1D4385;
+  text-transform: none;
+  margin: 40px 0 5px 0;
+  margin: 20px 0 5px 0;
+}
+
+@media (min-width: 768px) {
+  #whyUs .wrapper-content .col-6 h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #whyUs .wrapper-content .col-6 h2 {
+    font-size: 35px;
+    margin: 40px 0 15px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #whyUs .wrapper-content .col-6 h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1500px) {
+  #whyUs .wrapper-content .col-6 h2 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #whyUs .wrapper-content .col-6 h2 {
+    margin: 40px 0 5px 0;
+  }
+}
+
+#whyUs .wrapper-content .col-6 .subtitle {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #1CD6A9;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  #whyUs .wrapper-content .col-6 .subtitle {
+    margin-bottom: 28px;
+    font-size: 22px;
+  }
+}
+
+#whyUs .wrapper-content .col-6 ul {
+  width: 90%;
+}
+
+@media (min-width: 1200px) {
+  #whyUs .wrapper-content .col-6 ul {
+    width: 100%;
+  }
+}
+
+#whyUs .wrapper-content .col-6 .why-us-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#whyUs .wrapper-content .col-6 .why-us-item span {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+#whyUs .wrapper-content .col-6 .why-us-item div {
+  color: #1D4385;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+#whyUs .wrapper-content .col-6 .btn-green button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #fff;
+  margin-top: 23px;
+  padding: 7px 12px;
+  border-radius: 10px;
+  background-color: #1CD6A9;
+  border: none;
+}
+
+#whyUs .wrapper-content .col-6 .btn-green button:hover {
+  color: #1D4385;
+}
+
+#whyUs .wrapper-content .col-6 .btn-green button span {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+#whyUs .img-paski-first {
+  position: absolute;
+  top: 335px;
+  left: 95%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+  #whyUs .img-paski-first {
+    top: 250px;
+    left: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  #whyUs .img-paski-first {
+    top: 100px;
+    left: 50%;
+  }
+}
+
+#whyUs .img-paski-first img {
+  max-height: 137px;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  #whyUs .img-paski-first img {
+    max-height: 300px;
+  }
+}
+
+#whyUs .img-paski-second {
+  position: absolute;
+  top: 375px;
+  left: 95%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+  #whyUs .img-paski-second {
+    top: 300px;
+    left: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  #whyUs .img-paski-second {
+    top: 200px;
+    left: 50%;
+  }
+}
+
+#whyUs .img-paski-second img {
+  max-height: 141px;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  #whyUs .img-paski-second img {
+    max-height: 320px;
+  }
+}

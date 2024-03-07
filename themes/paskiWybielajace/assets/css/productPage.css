@@ -1,0 +1,18 @@
+#product #pc_ourStrenght {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+}
+
+#product #pc_ourStrenght_filler {
+  display: block;
+  height: 180px;
+}
+
+#product #pc_simpleUse .section-bg {
+  height: 750px;
+}
+
+#product #pc_simpleUse .section-bg .gradients {
+  top: 500px;
+}

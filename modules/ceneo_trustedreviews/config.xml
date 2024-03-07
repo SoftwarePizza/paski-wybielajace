@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ceneo_trustedreviews</name>
+    <displayName><![CDATA[Ceneo.pl Trusted Reviews]]></displayName>
+    <version><![CDATA[1.0.2]]></version>
+    <description><![CDATA[Integrates store with Ceneo.pl Trusted Reviews Program]]></description>
+    <author><![CDATA[Ceneo.pl]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <confirmUninstall><![CDATA[Are you sure you want to uninstall this module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+    <limited_countries></limited_countries>
+</module>

@@ -1,0 +1,10 @@
+#header .header-top > .container {
+  position: static;
+}
+
+.search-wrapper {
+  position: absolute;
+  top: 153px;
+  width: 100%;
+  left: 0;
+}

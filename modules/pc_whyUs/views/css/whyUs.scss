@@ -1,0 +1,213 @@
+// why us section
+
+//copy to theme css folder and compile and copy here agine :) 
+@import 'variables.scss';
+#whyUs {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin: 0 -15px;
+    overflow: hidden;
+
+    @include md { 
+        padding: 0 15px;
+        margin: 0;
+        overflow: visible;
+    }
+
+    .wrapper-content {
+        display: flex;
+        flex-direction: column;
+
+        @include md { 
+            flex-direction: row;
+        }
+
+        .col-6 {
+            width: 100%;
+            
+
+            @include md { 
+                width: 50%;
+                height: 400px;
+            }
+
+            &:first-of-type{
+                background: rgba(242, 248, 251, 1);
+                box-shadow: 0px 24px 64px 0px rgba(0, 0, 0, 0.06);
+               
+
+                @include md {
+                    background-color: $additional-bg-color;
+                }
+              
+
+            }
+
+            .content{
+                
+                margin-left: 20px;
+                margin-bottom: 30px;
+
+                @include md { 
+                    margin-left: 50px;
+                    width: 70%;
+                }
+            }
+
+            .img-bg {
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: 210px;
+
+                    @include md {  
+                        height: 400px;
+                    }
+                }
+            }
+
+            h2 {
+             @include sectionTitle;
+
+             margin: 20px 0 5px 0;
+
+             @include lg {
+                margin: 40px 0 5px 0;
+             }
+            }
+
+            .subtitle {
+                    
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 20px;
+                color: $additional-color;
+                margin-bottom: 15px;
+
+                @include lg {
+                    margin-bottom: 28px;
+                    font-size: 22px;
+                }
+
+            }
+
+            ul {
+                width: 90%;
+
+                @include xl {
+                    width: 100%;
+                }
+            }
+
+            .why-us-item {
+                display: flex;
+                margin-bottom: 10px;
+
+                span{
+                    width: 10px;
+                    height: 10px;
+                    margin-right: 5px;
+                }
+
+                div {
+                color: $primary-color;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+
+
+                }
+            }
+
+            .btn-green {
+                button {
+                    display: flex;
+                    align-items: center;
+                     font-size: 14px;
+                     font-weight: 700;
+                     line-height: 17px;
+                     color:  $btn-font-color;
+                     margin-top: 23px;
+                     padding: 7px 12px;
+                     border-radius: 10px;
+                     background-color: $additional-color;
+                     border: none;
+
+                     &:hover{
+                        color: $primary-color;
+                     }
+
+                     span {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 12px;
+                     }
+
+
+
+                }
+            }
+        }
+
+       
+    }
+
+    
+        
+
+        .img-paski-first {
+            position: absolute;
+            top: 335px;
+            left: 95%;
+            transform: translateX(-50%);
+
+            @include md {
+                top:250px;
+                left: 95%;
+            }
+
+            @include lg {
+                top: 100px;
+                left: 50%;
+            }
+            
+
+            img {
+                max-height: 137px;
+                width: auto;
+
+                @include lg {
+                    max-height: 300px;
+                }
+            }
+           
+        }
+
+        .img-paski-second {
+            position: absolute;
+            top:375px;
+            left: 95%;
+            transform: translateX(-50%);
+
+            @include md {
+                top:300px;
+                left: 95%;
+            }
+
+            @include lg {
+                top:200px;
+                left: 50%;
+            }
+
+            img {
+                max-height: 141px;
+                width: auto;
+
+                @include lg {
+                    max-height: 320px;
+                }
+            }
+        }
+    
+}

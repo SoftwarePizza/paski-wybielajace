@@ -1,0 +1,105 @@
+#main{
+    .block-category{
+        background: transparent;
+        min-height: unset;
+        padding: 0;
+        margin: 0;
+
+        .block-category-inner:has(#category-description){
+            margin-bottom: 40px;
+        }
+
+        #category-description{
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                color: $additional-text-color;
+                margin: 0;
+            }
+        }
+        .block-category-inner{
+            flex-direction: column;
+        }
+
+        .read-more{
+            display: flex;
+            gap: 20px;
+            width: max-content;
+            margin-top: 15px;
+            span{
+                color: $primary-color;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+            }
+            .icon{
+                position: relative;
+                top: -2px;
+                svg path{
+                    stroke: $primary-color;
+                }
+            }
+
+            &:hover{
+                cursor: pointer;
+                span{
+                    color: $additional-color;
+                }
+                .icon{
+                    svg path{
+                        stroke: $additional-color;
+                    }
+                }
+            }
+        }
+    }
+    #subcategories,#js-product-list-top{
+        display: none;
+    }
+
+  
+}
+#left-column{
+    background: $bg-color;
+    margin: 0 0 30px 0;
+
+    @include md{
+        margin: 0 15px 0 -15px;
+    }
+    .block-categories{
+        background: transparent;
+
+        .category-top-menu{
+            li > a{
+                color: $additional-text-color;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                padding-left: 12px;
+                &:hover,&.active{
+                    color: $primary-color;
+                    font-weight: 600;
+                }
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    display: block;
+                    background-color: $additional-color;
+                    top: 11px;
+                    left: 0px;
+                }
+            }
+            .header{
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            color: $primary-color;
+
+            }
+        }
+    }
+}
